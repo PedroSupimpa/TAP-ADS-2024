@@ -39,6 +39,8 @@ class Item {
 }
 
 Character "1" --> "0..*" Skill : has
+Character "1" --> "1" Inventory : has
+Inventory "1" --> "0..*" Item : contains
 
 
 
